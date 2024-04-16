@@ -1,0 +1,24 @@
+cliente= socket.socket()
+key.data- vai ser aquilo que colocamos no terceiro parametro sel (accept)
+callback-funcao chamada de resposta a um evento
+callback(key.fileobj,mask) vai chamar o primeiro parametro(sock) 
+conn, addr sock.accept()
+o conn é o socket da ligação e o addr e o endereco do clinte
+conn.recv é para ler a socket
+em vez de send usar sendall(data)
+o send nao garante que é tudo enviado 
+o sendall espera ate enviar tudo
+se nao receber nada retira o registo naquele seletor com o unregister
+
+
+aula2
+import json
+Podemos converter estruturas pyhon em String json dumps
+OU 
+Podemos converter string json em estruturas python loads
+
+
+
+Origin- repositorio remoto
+upstream- repositorio apartir do qual o nosso foi criado
+
